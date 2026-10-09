@@ -4,12 +4,7 @@
 >
 > **Két hangfelvételt hasonlít össze, és megmondja, hogy ugyanaz a személy beszél-e.** Teljesen offline fut a gépeden, videókártyával gyorsítva, ha van. Magyar és angol felület.
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="docs/screenshot-en.png" alt="VoxCompare - English UI" width="400"><br><sub>English</sub></td>
-    <td align="center"><img src="docs/screenshot-hu.png" alt="VoxCompare - magyar felület" width="400"><br><sub>Magyar</sub></td>
-  </tr>
-</table>
+<p align="center"><img src="docs/screenshot.png" alt="VoxCompare - Hangazonosító" width="520"></p>
 
 <p align="center"><a href="../../releases/latest"><b>⬇ Download / Letöltés</b></a></p>
 
