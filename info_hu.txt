@@ -1,0 +1,12 @@
+﻿Hangazonosító 1.0.0
+
+Két hangfelvételt hasonlít össze, és megbecsüli, hogy ugyanaz a személy beszél-e mindkettőn.
+
+  •  WAV, MP3, FLAC és OGG külső eszköz nélkül működik
+  •  Csend-eltávolítás és szakaszonkénti elemzés a pontosabb eredményért
+  •  Egyöntetűség-ellenőrzés: jelzi, ha egy felvételen több személy hallatszik
+  •  Magyar és angol felület, a modell a telepítővel együtt érkezik, internet nem kell
+
+A program a számításokat a saját gépeden végzi, a hangfájlok nem kerülnek ki az internetre.
+
+Nem hivatalos program. Az eredmény tájékoztató jellegű becslés, nem igazságügyi szakértői vélemény, és jogi eljárásban nem használható bizonyítékként: rövid, zajos vagy erősen tömörített felvételeknél kevésbé megbízható.

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.buildenv/
+
+# Build output
+build/
+dist/
+installer/
+*.spec
+
+# Generated graphics
+app.ico
+installer_*.bmp
+
+# Models are bundled by the build; they are downloaded on first run when running from source
+pretrained_models/
+
+# Personal / test audio and OS files
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+nul
+Thumbs.db
+.DS_Store
+*.log

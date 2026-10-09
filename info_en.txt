@@ -1,0 +1,12 @@
+﻿Hangazonosító 1.0.0
+
+Compares two recordings and estimates whether the same person speaks in both.
+
+  •  WAV, MP3, FLAC and OGG work without any external tool
+  •  Silence removal and window-by-window analysis for a more accurate result
+  •  Consistency check: warns when more than one voice is heard in a recording
+  •  Hungarian and English UI; the model ships with the installer, no internet needed
+
+All computation happens on your own computer; audio files are never uploaded.
+
+Unofficial software. The result is an informative estimate, not a forensic expert opinion, and must not be used as evidence in legal proceedings; it is less reliable for short, noisy or heavily compressed recordings.
