@@ -1,10 +1,15 @@
-# Hangazonosító
+# VoxCompare - Hangazonosító
 
 > **Compare two recordings and find out whether the same person is speaking.** Runs fully offline on your PC, GPU-accelerated if you have one. English & Hungarian UI.
 >
 > **Két hangfelvételt hasonlít össze, és megmondja, hogy ugyanaz a személy beszél-e.** Teljesen offline fut a gépeden, videókártyával gyorsítva, ha van. Magyar és angol felület.
 
-<p align="center"><img src="docs/screenshot-en.png" alt="Hangazonosító (English UI)" width="460">&nbsp;<img src="docs/screenshot-hu.png" alt="Hangazonosító" width="460"></p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="docs/screenshot-en.png" alt="VoxCompare - English UI" width="400"><br><sub>English</sub></td>
+    <td align="center"><img src="docs/screenshot-hu.png" alt="VoxCompare - magyar felület" width="400"><br><sub>Magyar</sub></td>
+  </tr>
+</table>
 
 <p align="center"><a href="../../releases/latest"><b>⬇ Download / Letöltés</b></a></p>
 
@@ -29,8 +34,8 @@
 
 ### Telepítés
 
-1. Töltsd le a legfrissebb **`Hangazonosito-Setup-x.y.z.exe`** telepítőt a [Releases](../../releases) oldalról. A program a `Program Files` mappába települ, Start menü parancsikonnal (az asztali ikon opcionális).
-2. Telepítés nélkül: töltsd le a **`Hangazonosito-portable-x.y.z.zip`** fájlt, csomagold ki, és indítsd a `Hangazonosito.exe`-t.
+1. Töltsd le a legfrissebb **`VoxCompare-Setup-x.y.z.exe`** telepítőt a [Releases](../../releases) oldalról. A program a `Program Files` mappába települ, Start menü parancsikonnal (az asztali ikon opcionális).
+2. Telepítés nélkül: töltsd le a **`VoxCompare-portable-x.y.z.zip`** fájlt, csomagold ki, és indítsd a `VoxCompare.exe`-t.
 
 > Az exe nincs digitálisan aláírva, ezért a Windows SmartScreen figyelmeztethet („További információ → Futtatás mindenképp”). A fájlok SHA256-összege a kiadás leírásában szerepel.
 
@@ -102,8 +107,8 @@ Az első indításkor a modell (kb. 85 MB) letöltődik a `pretrained_models` ma
 
 ### Installation
 
-1. Download the latest **`Hangazonosito-Setup-x.y.z.exe`** from [Releases](../../releases). It installs to `Program Files` with a Start menu shortcut (desktop icon optional).
-2. No install: download **`Hangazonosito-portable-x.y.z.zip`**, extract it and run `Hangazonosito.exe`.
+1. Download the latest **`VoxCompare-Setup-x.y.z.exe`** from [Releases](../../releases). It installs to `Program Files` with a Start menu shortcut (desktop icon optional).
+2. No install: download **`VoxCompare-portable-x.y.z.zip`**, extract it and run `VoxCompare.exe`.
 
 > The exe is not code-signed, so Windows SmartScreen may warn you ("More info → Run anyway"). SHA256 checksums are in the release notes.
 

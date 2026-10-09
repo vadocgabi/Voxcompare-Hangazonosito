@@ -1,5 +1,5 @@
 @echo off
-rem Builds dist\Hangazonosito\Hangazonosito.exe (portable folder) and the installer.
+rem Builds dist\VoxCompare\VoxCompare.exe (portable folder) and the installer.
 rem Use a clean environment with the CPU build of PyTorch to keep the package small:
 rem   python -m venv .buildenv
 rem   .buildenv\Scripts\python -m pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
@@ -9,7 +9,7 @@ set PY=.buildenv\Scripts\python.exe
 if not exist %PY% set PY=python
 %PY% -m unittest discover tests || exit /b 1
 %PY% make_icon.py || exit /b 1
-%PY% -m PyInstaller --noconfirm --clean --onedir --noconsole --name Hangazonosito --icon app.ico ^
+%PY% -m PyInstaller --noconfirm --clean --onedir --noconsole --name VoxCompare --icon app.ico ^
   --version-file version_info.txt ^
   --add-data "pretrained_models\spkrec-ecapa-voxceleb;pretrained_models\spkrec-ecapa-voxceleb" ^
   --add-data "app.ico;." ^

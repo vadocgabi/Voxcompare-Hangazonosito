@@ -1,4 +1,4 @@
-"""Hangazonosító - launcher.
+"""VoxCompare - Hangazonosító - launcher.
 
     python main.py                          start the application
     python main.py --compare A.wav B.wav    headless comparison (prints the score)
@@ -12,13 +12,13 @@ warnings.filterwarnings("ignore")  # third-party deprecation noise (torch, torch
 
 def main(argv: list) -> int:
     if "--version" in argv:
-        from hangazonosito import __version__
-        print(f"Hangazonosito {__version__}")
+        from voxcompare import __version__
+        print(f"VoxCompare {__version__}")
         return 0
     if argv[:1] == ["--compare"]:
-        from hangazonosito.engine import main_compare
+        from voxcompare.engine import main_compare
         return main_compare(argv[1:])
-    from hangazonosito.ui import run
+    from voxcompare.ui import run
     run()
     return 0
 

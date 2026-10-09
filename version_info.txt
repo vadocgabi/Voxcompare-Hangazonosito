@@ -5,12 +5,12 @@ VSVersionInfo(
   kids=[
     StringFileInfo([StringTable('040904B0', [
       StringStruct('CompanyName', 'Vadóc Gábor'),
-      StringStruct('FileDescription', 'Hangazonosító'),
+      StringStruct('FileDescription', 'VoxCompare - Hangazonosító'),
       StringStruct('FileVersion', '1.0.0'),
-      StringStruct('InternalName', 'Hangazonosito'),
+      StringStruct('InternalName', 'VoxCompare'),
       StringStruct('LegalCopyright', '© 2026 Vadóc Gábor. MIT License.'),
-      StringStruct('OriginalFilename', 'Hangazonosito.exe'),
-      StringStruct('ProductName', 'Hangazonosító'),
+      StringStruct('OriginalFilename', 'VoxCompare.exe'),
+      StringStruct('ProductName', 'VoxCompare'),
       StringStruct('ProductVersion', '1.0.0')])]),
     VarFileInfo([VarStruct('Translation', [1033, 1200])])
   ]

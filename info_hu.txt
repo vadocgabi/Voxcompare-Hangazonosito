@@ -1,4 +1,4 @@
-﻿Hangazonosító 1.0.0
+﻿VoxCompare - Hangazonosító 1.0.0
 
 Két hangfelvételt hasonlít össze, és megbecsüli, hogy ugyanaz a személy beszél-e mindkettőn.
 

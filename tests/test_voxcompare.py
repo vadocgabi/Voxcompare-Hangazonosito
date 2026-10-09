@@ -17,8 +17,8 @@ import numpy as np
 warnings.filterwarnings("ignore")
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from hangazonosito import audio, engine
-from hangazonosito.i18n import STRINGS, tr
+from voxcompare import audio, engine
+from voxcompare.i18n import STRINGS, tr
 
 
 def write_wav(path: str, samples: np.ndarray, rate: int = 16_000) -> None:

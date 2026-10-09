@@ -12,7 +12,7 @@ LANGS = {"hu": "Magyar", "en": "English"}
 
 STRINGS = {
     "hu": {
-        "title": "Hangazonosító",
+        "title": "VoxCompare - Hangazonosító",
         "subtitle": "Két hangfelvétel összehasonlítása: ugyanaz a személy beszél?",
         "credit": "Készítette: {a} - {y}",
         "disclaimer": "Nem hivatalos program. Az eredmény tájékoztató jellegű becslés, nem igazságügyi szakértői vélemény, és jogi eljárásban nem használható bizonyítékként.",
@@ -66,7 +66,7 @@ STRINGS = {
         "days": "",
     },
     "en": {
-        "title": "Hangazonosító",
+        "title": "VoxCompare - Hangazonosító",
         "subtitle": "Compare two recordings: is the same person speaking?",
         "credit": "Created by: {a} - {y}",
         "disclaimer": "Unofficial software. The result is an informative estimate, not a forensic expert opinion, and must not be used as evidence in legal proceedings.",

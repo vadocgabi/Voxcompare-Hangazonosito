@@ -52,7 +52,8 @@ def sidebar(width: int = 328, height: int = 628) -> Image.Image:
         draw.line((0, y, width, y), fill=tuple(int(NAVY[i] + (BLUE[i] - NAVY[i]) * t) for i in range(3)))
     mark = logo(160)
     img.paste(mark, ((width - 160) // 2, 110), mark)
-    draw.text((width / 2, 320), "Hangazonosító", font=font(34), fill="white", anchor="mm")
+    draw.text((width / 2, 316), "VoxCompare", font=font(36), fill="white", anchor="mm")
+    draw.text((width / 2, 360), "Hangazonosító", font=font(24), fill=(190, 205, 235), anchor="mm")
     draw.text((width / 2, height - 40), "Vadóc Gábor · 2026", font=font(20), fill=(190, 205, 235), anchor="mm")
     return img
 

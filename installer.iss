@@ -1,15 +1,15 @@
-; Hangazonosito installer (Inno Setup 6) - Vadóc Gábor, 2026
-#define AppName "Hangazonosító"
+; VoxCompare installer (Inno Setup 6) - Vadóc Gábor, 2026
+#define AppName "VoxCompare - Hangazonosító"
 #define AppVersion "1.0.0"
-#define AppExe "Hangazonosito.exe"
+#define AppExe "VoxCompare.exe"
 
 [Setup]
 AppId={{5D9A3E71-7B0C-4F36-9C1A-2E84B6D07A55}
 AppName={#AppName}
 AppVersion={#AppVersion}
 AppPublisher=Vadóc Gábor
-AppPublisherURL=https://github.com/vadocgabi/hangazonosito
-DefaultDirName={autopf}\{#AppName}
+AppPublisherURL=https://github.com/vadocgabi/voxcompare
+DefaultDirName={autopf}\VoxCompare
 DefaultGroupName={#AppName}
 DisableProgramGroupPage=yes
 ArchitecturesAllowed=x64compatible
@@ -23,7 +23,7 @@ WizardImageFile=installer_side.bmp
 WizardSmallImageFile=installer_small.bmp
 DisableReadyPage=yes
 OutputDir=installer
-OutputBaseFilename=Hangazonosito-Setup-{#AppVersion}
+OutputBaseFilename=VoxCompare-Setup-{#AppVersion}
 Compression=lzma2/fast
 SolidCompression=yes
 VersionInfoVersion={#AppVersion}
@@ -43,7 +43,7 @@ hungarian.CreateDesktopIcon=Parancsikon az asztalon
 english.CreateDesktopIcon=Create a desktop shortcut
 
 [Files]
-Source: "dist\Hangazonosito\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "dist\VoxCompare\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\{#AppName}"; Filename: "{app}\{#AppExe}"
